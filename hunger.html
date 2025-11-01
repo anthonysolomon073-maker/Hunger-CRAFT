@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunger Craft Menu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial Black', Arial, sans-serif;
+            background: linear-gradient(135deg, #f5b942 0%, #e8a52e 100%);
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .menu-container {
+            background: #f5b942;
+            max-width: 900px;
+            width: 100%;
+            padding: 40px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 4rem;
+            color: #3d1a00;
+            text-align: center;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            font-weight: 900;
+        }
+
+        .tagline {
+            font-family: Georgia, serif;
+            font-style: italic;
+            font-size: 1.5rem;
+            color: #3d1a00;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: rgba(255, 255, 255, 0.3);
+            border: 3px solid #3d1a00;
+        }
+
+        th {
+            background: rgba(255, 215, 140, 0.8);
+            color: #3d1a00;
+            padding: 20px;
+            font-size: 1.8rem;
+            font-weight: 900;
+            border: 2px solid #3d1a00;
+            text-align: center;
+        }
+
+        td {
+            background: rgba(255, 235, 200, 0.6);
+            color: #000;
+            padding: 18px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border: 2px solid #3d1a00;
+        }
+
+        td:first-child {
+            font-weight: 900;
+        }
+
+        td:nth-child(2) {
+            text-align: center;
+            font-weight: 600;
+        }
+
+        td:last-child {
+            text-align: center;
+            font-size: 1.3rem;
+            font-weight: 900;
+        }
+
+        .contact {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 1.5rem;
+            color: #3d1a00;
+            font-weight: 900;
+        }
+
+        .contact::before {
+            content: "📞";
+            margin-right: 10px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .tagline {
+                font-size: 1rem;
+            }
+
+            th {
+                font-size: 1.2rem;
+                padding: 12px 8px;
+            }
+
+            td {
+                font-size: 0.9rem;
+                padding: 12px 8px;
+            }
+
+            .contact {
+                font-size: 1rem;
+            }
+
+            .menu-container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <h1>HUNGER CRAFT</h1>
+        <div class="tagline">"Where Every Meal is a Masterpiece"</div>
+         <div class="contact">
+            0810 948 8961 | 0903 711 3080
+        </div> <br>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Dish</th>
+                    <th>Protein Options</th>
+                    <th>Price (₦)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Asun  rice <br> Asun  rice </td>
+                    <td>Turkey <br> Chicken</td>
+                    <td>9,000 <br>8000</td>
+                </tr>
+                
+                <tr>
+                    <td>Jollof Rice & Plalatain</td>
+                    <td>Turkey & Egg <br> Beef & egg <br>
+                     Chicken & egg </td>
+                    <td>8,500 <br> 7,000 <br> 7,500</td>
+                </tr>
+                <tr>
+                    <td>stri-Fry Spaghetti  <br>stri-Fry Spaghetti  <br>
+                    stri-Fry Spaghetti  </td>
+                    <td>Chicken <br>
+                        Turkey <br>
+                        beef</td>
+                    <td>7,000 <br>
+                    8,500 <br> 6,500</td>
+                </tr>
+                 <td>Tomato Sauce Pasta    <br>Tomato Sauce Pasta <br>
+                    Tomato Sauce Pasta with </td>
+                    <td>Turkey and egg <br>
+                        Chicken and eeg <br>
+                        Meat and egg</td>
+                    <td>9,000 <br>
+                    8,500 <br> 7,000</td>
+                </tr>
+                <tr>
+                    <td>Fried Rice  <br>Fried Rice  <br>Fried Rice </td>
+                    <td>Turkey <br>  Chicken, <br>  Beef</td>
+                    <td>8,000 <br> 7,000 <br> 6,000</td>
+                </tr>
+                <tr>
+                    <td>Caribbean Rice</td>
+                    <td>Turkey, Chicken, Beef</td>
+                    <td>10,000</td>
+                </tr>
+               
+                <tr>
+                    <td>Yam Fries  <br>Yam Fries   </td>
+                    <td>Fish Sauce and Turkey<br> Fish Sauce and fish</td>
+                    <td>8,500 <br>7,500</td>
+                </tr>
+                <tr>
+                    <td>Garnished Potatoes Porridge  <br> Garnished Potatoes  <br>
+                    Garnished Potatoes  </td>
+                    <td> Fish and Beef <br> Turkey <br> Chicken</td>
+                    <td>6,000 <br>7,500 <br> 7000</td>
+                </tr>
+                 <td>Garnished Village rice   <br> Garnished Village rice  <br>
+                    Garnished Village rice  </td>
+                    <td>  egg and Beef <br> Turkey and egg<br> Chicken and egg</td>
+                    <td>6,000 <br>9,000 <br> 7,000</td>
+                </tr>
+                
+                <tr>
+                    <td>Suya Rice with <br> Suya Rice with </td>
+                    <td>Chicken <br> Turkey</td>
+                    <td>7,000 <br>9,000</td>
+                </tr>
+                  <tr>
+                    <td>Fish rice <br>Fish Rice </td>
+                    <td>egg and beef  <br> egg and chicken </td>
+                    <td>6,000 <br>7,000</td>
+                </tr>
+                <tr>
+                    <td>Suya Pasta  <br> Suya Pasta with</td>
+                    <td> Turkey and egg<br>Chicken and egg</td>
+                    <td>8,000</td>
+                </tr>
+                <tr>
+                    <td>Plantain & Egg</td>
+                    <td>–</td>
+                    <td>5,000</td>
+                </tr>
+            </tbody>
+        </table>
+
+       
+    </div>
+</body>
+</html>
